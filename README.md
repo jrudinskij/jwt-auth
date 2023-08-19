@@ -7,7 +7,7 @@ The addon is built to be compatible with Alfresco 5.2 and above.
 This addon consists of the platform (repository) and Share modules.
 - The Share module provides Share UI to generate JWT tokens for a specified user.
 - The platform module provides a Web script to serve the Share UI in generating JWT tokens for user.
-- Likewise, the platform module provides a custom authentication subsystem (jwt-auth:external) to authentication requests
+- Likewise, the platform module provides a custom authentication subsystem (jwt-auth:external) to authenticate requests
 by JWT token.
 - The JWT tokens must be sent with REST calls in Bearer authentication header (Authorization: Bearer <token>).
 ## Configuration
