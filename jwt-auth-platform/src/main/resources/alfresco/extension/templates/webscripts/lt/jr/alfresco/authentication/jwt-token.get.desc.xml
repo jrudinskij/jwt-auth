@@ -1,0 +1,20 @@
+<webscript>
+    <shortname>JWT Generate</shortname>
+    <description>Web Script generates and returns JWT token</description>
+    <url>/jr/authentication/jwt/{user}</url>
+    <url>/jr/authentication/jwt/{user}/{expireInDays}</url>
+    <args>
+        <arg>
+            <shortname>user</shortname>
+            <description>The username of a valid user account</description>
+        </arg>
+        <arg>
+            <shortname>expireInDays</shortname>
+            <description>Number of days after which the token must expire. Optional argument. The default value is 1 day</description>
+        </arg>
+    </args>
+    <authentication>admin</authentication>
+    <format default="json">argument</format>
+    <transaction buffersize="4096" allow="readonly">required</transaction>
+    <lifecycle>internal</lifecycle>
+</webscript>

@@ -1,0 +1,19 @@
+.label {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+}
+
+.copy-link {
+    background-image: url(./images/copy.jpg);
+    cursor: pointer;
+    display: inline-block;
+    width: 20px;
+    height: 24px;
+    margin-left: 10px;
+}
+
+.errorMessage {
+    color: #e00028;
+    padding: 10px;
+}

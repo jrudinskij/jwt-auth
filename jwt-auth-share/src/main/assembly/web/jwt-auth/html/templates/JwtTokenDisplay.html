@@ -1,0 +1,14 @@
+<div>
+    <div style="display: none" data-dojo-attach-point="tokenDisplayNode">
+        <div style="padding: 10px">
+            <span class="label">${tokenLabel}:</span>
+            <span data-dojo-attach-point="tokenNode">${token}</span>
+            <span class="copy-link" data-dojo-attach-event="ondijitclick:__onClick"></span>
+        </div>
+        <div style="padding: 10px">
+            <span class="label">${expiresLabel}:</span>
+            <span data-dojo-attach-point="expiresNode">${expires}</span>
+        </div>
+    </div>
+    <div style="display: none" class="errorMessage" data-dojo-attach-point="tokenErrorNode"></div>
+</div>
